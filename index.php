@@ -39,25 +39,25 @@ require_once 'head.php';
                                 <li>
                                     <img src="img/slides/1.jpg" alt="" />
                                     <div class="flex-caption">
-                                        <h3>Modern Design</h3>
-                                        <p>Duis fermentum auctor ligula ac malesuada. Mauris et metus odio, in pulvinar urna</p>
-                                        <a href="#" class="btn btn-theme">Learn More</a>
+                                        <h3><?php include 'contenido/f1_i1_t.txt'; ?></h3>
+                                        <p><?php include 'contenido/f1_i1_txt.txt'; ?></p>
+                                        <!--<a href="#" class="btn btn-theme">Learn More</a>-->
                                     </div>
                                 </li>
                                 <li>
                                     <img src="img/slides/2.jpg" alt="" />
                                     <div class="flex-caption">
-                                        <h3>Fully Responsive</h3>
-                                        <p>Sodales neque vitae justo sollicitudin aliquet sit amet diam curabitur sed fermentum.</p>
-                                        <a href="#" class="btn btn-theme">Learn More</a>
+                                        <h3>f1_i2_t</h3>
+                                        <p>f1_i2_txt</p>
+                                        <!--<a href="#" class="btn btn-theme">Learn More</a>-->
                                     </div>
                                 </li>
                                 <li>
                                     <img src="img/slides/3.jpg" alt="" />
                                     <div class="flex-caption">
-                                        <h3>Clean & Fast</h3>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit donec mer lacinia.</p>
-                                        <a href="#" class="btn btn-theme">Learn More</a>
+                                        <h3>f1_i3_t</h3>
+                                        <p>f1_i3_txt</p>
+                                        <!--<a href="#" class="btn btn-theme">Learn More</a>-->
                                     </div>
                                 </li>
                             </ul>
@@ -68,19 +68,19 @@ require_once 'head.php';
             </div>
         </section>
 
-        <section class="callaction">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="big-cta">
-                            <div class="cta-text">
-                                <h2><span>Moderna</span> HTML Business Template</h2>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+<!--        <section class="callaction">-->
+<!--            <div class="container">-->
+<!--                <div class="row">-->
+<!--                    <div class="col-lg-12">-->
+<!--                        <div class="big-cta">-->
+<!--                            <div class="cta-text">-->
+<!--                                <h2><span>Moderna</span> HTML Business Template</h2>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </section>-->
 
         <section id="content">
             <div class="container">
@@ -158,6 +158,7 @@ require_once 'head.php';
                         </div>
                     </div>
                 </div>
+
                 <!-- divider -->
                 <div class="row">
                     <div class="col-lg-12">
@@ -166,10 +167,11 @@ require_once 'head.php';
                     </div>
                 </div>
                 <!-- end divider -->
+
                 <!-- Portfolio Projects -->
                 <div class="row">
                     <div class="col-lg-12">
-                        <h4 class="heading">Recent Works</h4>
+                        <h4 class="heading">Trabajos recientes</h4>
                         <div class="row">
                             <section id="projects">
                                 <ul id="thumbs" class="portfolio">
