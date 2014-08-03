@@ -39,24 +39,24 @@ require_once 'head.php';
                                 <li>
                                     <img src="img/slides/1.jpg" alt="" />
                                     <div class="flex-caption">
-                                        <h3>Modern Design</h3>
-                                        <p>Duis fermentum auctor ligula ac malesuada. Mauris et metus odio, in pulvinar urna.</p>
+                                        <h3><?php include 'contenido/f1_i1_t.txt'; ?></h3>
+                                        <p><?php include 'contenido/f1_i1_txt.txt'; ?></p>
                                         <!--<a href="#" class="btn btn-theme">Learn More</a>-->
                                     </div>
                                 </li>
                                 <li>
                                     <img src="img/slides/2.jpg" alt="" />
                                     <div class="flex-caption">
-                                        <h3>Fully Responsive</h3>
-                                        <p>Sodales neque vitae justo sollicitudin aliquet sit amet diam curabitur sed fermentum.</p>
+                                        <h3>f1_i2_t</h3>
+                                        <p>f1_i2_txt</p>
                                         <!--<a href="#" class="btn btn-theme">Learn More</a>-->
                                     </div>
                                 </li>
                                 <li>
                                     <img src="img/slides/3.jpg" alt="" />
                                     <div class="flex-caption">
-                                        <h3>Clean & Fast</h3>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit donec mer lacinia.</p>
+                                        <h3>f1_i3_t</h3>
+                                        <p>f1_i3_txt</p>
                                         <!--<a href="#" class="btn btn-theme">Learn More</a>-->
                                     </div>
                                 </li>
