@@ -45,38 +45,8 @@ require_once 'head.php';
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
-                <h4>Mantenganse en contacto con nosotros completando <strong>este formulario</strong></h4>
-                <form id="contactform" action="contact/contact.php" method="post" class="validateform" name="send-contact">
-                    <div id="sendmessage">
-                         Tu mensaje ha sido enviado. Gracias!
-                    </div>
-                    <div class="row">
-                        <div class="col-lg-4 field">
-                            <input type="text" name="name" placeholder="* Nombre y Apellido" data-rule="maxlen:4" data-msg="Por favor, ingrese al menos 4 caracteres" />
-                            <div class="validation">
-                            </div>
-                        </div>
-                        <div class="col-lg-4 field">
-                            <input type="text" name="email" placeholder="* Correo Electrónico" data-rule="email" data-msg="Por favor, ingrese un correo electronico válido" />
-                            <div class="validation">
-                            </div>
-                        </div>
-                        <div class="col-lg-4 field">
-                            <input type="text" name="subject" placeholder="Asunto" data-rule="maxlen:4" data-msg="Por favor, ingrese al menos 4 caracteres" />
-                            <div class="validation">
-                            </div>
-                        </div>
-                        <div class="col-lg-12 margintop10 field">
-                            <textarea rows="12" name="message" class="input-block-level" placeholder="* Su mensaje aquí..." data-rule="required" data-msg="Por favor, escriba un mensaje"></textarea>
-                            <div class="validation">
-                            </div>
-                            <p>
-                                <button class="btn btn-theme margintop10 pull-left" type="submit">Enviar mensaje</button>
-                                <span class="pull-right margintop20">* Por favor, ingrese todos los campos.</span>
-                            </p>
-                        </div>
-                    </div>
-                </form>
+                <h4>Mantenganse en contacto con nosotros utilizando los siguientes datos</h4>
+
             </div>
         </div>
     </div>

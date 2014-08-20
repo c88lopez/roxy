@@ -22,7 +22,7 @@
         <div class="row">
             <div class="col-lg-3">
                 <div class="widget">
-                    <h5 class="widgetheading">Get in touch with us</h5>
+                    <h5 class="widgetheading">Manténgase en contacto!</h5>
                     <address>
                         <strong>Roxana Bavaro</strong><br>
                         <!--Modernbuilding suite V124, AB 01<br>
@@ -36,11 +36,11 @@
             </div>
             <div class="col-lg-3">
                 <div class="widget">
-                    <h5 class="widgetheading">Pages</h5>
+                    <h5 class="widgetheading">Páginas</h5>
                     <ul class="link-list">
                         <li><a href="index.php">Home</a></li>
-                        <li><a href="portfolio.php">Portfolio</a></li>
-                        <li><a href="blog.php">Blog</a></li>
+                        <li><a href="radio.php">Portfolio</a></li>
+                        <li><a href="grafica.php">Blog</a></li>
                         <li><a href="contacto.php">Contacto</a></li>
                     </ul>
                 </div>
