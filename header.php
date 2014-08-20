@@ -31,10 +31,13 @@
             </div>
             <div class="navbar-collapse collapse ">
                 <ul class="nav navbar-nav">
-                    <li <?php echo ('Home'      === $sSectionclass)?'class="active"':''; ?>><a href="index.php">Home</a></li>
-                    <li <?php echo ('Portfolio' === $sSectionclass)?'class="active"':''; ?>><a href="portfolio.php">Portfolio</a></li>
-                    <li <?php echo ('Blog'      === $sSectionclass)?'class="active"':''; ?>><a href="blog.php">Blog</a></li>
-                    <li <?php echo ('Contacto'  === $sSectionclass)?'class="active"':''; ?>><a href="contacto.php">Contacto</a></li>
+                    <li <?php echo ('Quien soy'         === $sSectionclass) ? 'class="active"' : ''; ?>><a href="index.php">Quién soy</a></li>
+                    <li <?php echo ('Grafica'           === $sSectionclass) ? 'class="active"' : ''; ?>><a href="grafica.php">Gráfica</a></li>
+                    <li <?php echo ('Radio'             === $sSectionclass) ? 'class="active"' : ''; ?>><a href="radio.php">Radio</a></li>
+                    <li <?php echo ('Word Builder'      === $sSectionclass) ? 'class="active"' : ''; ?>><a href="word_builder.php">Word Builder</a></li>
+                    <li <?php echo ('Palabras de mas'   === $sSectionclass) ? 'class="active"' : ''; ?>><a href="palabras_de_mas.php">Palabras de más</a></li>
+                    <li <?php echo ('Otras incursiones' === $sSectionclass) ? 'class="active"' : ''; ?>><a href="index.php">Otras incursiones</a></li>
+                    <li <?php echo ('Contacto'          === $sSectionclass) ? 'class="active"' : ''; ?>><a href="contacto.php">Contacto</a></li>
                 </ul>
             </div>
         </div>
