@@ -27,8 +27,8 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.php"><span>Roxy</span> Bavaro</a>
-                <div class="col-lg-6" style="font-size: 16px;">
+                <a class="navbar-brand" href="index.php"><span>Roxana</span> Bavaro</a>
+                <div class="col-lg-6" style="font-size: 16px; padding-left: 40px;">
                     <ul class="social-network">
                         <li>
                             <a href="https://www.facebook.com/roxana.bavaro" data-placement="top" title="Facebook">
@@ -65,7 +65,7 @@
                     <li <?php echo ('Radio'             === $sSectionclass) ? 'class="active"' : ''; ?>><a href="radio.php">Radio</a></li>
                     <li <?php echo ('Word Builder'      === $sSectionclass) ? 'class="active"' : ''; ?>><a href="word_builder.php">Word Builder</a></li>
                     <li <?php echo ('Palabras de mas'   === $sSectionclass) ? 'class="active"' : ''; ?>><a href="palabras_de_mas.php">Palabras de más</a></li>
-                    <li <?php echo ('Otras incursiones' === $sSectionclass) ? 'class="active"' : ''; ?>><a href="index.php">Otras incursiones</a></li>
+                    <li <?php echo ('Otras incursiones' === $sSectionclass) ? 'class="active"' : ''; ?>><a href="otras_incursiones.php">Otras incursiones</a></li>
                     <li <?php echo ('Contacto'          === $sSectionclass) ? 'class="active"' : ''; ?>><a href="contacto.php">Contacto</a></li>
                 </ul>
             </div>

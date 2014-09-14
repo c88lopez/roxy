@@ -28,24 +28,33 @@ require_once 'head.php';
 
         ?>
 
-        <section id="featured">
-            <!-- start slider -->
+        <section id="inner-headline">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
+                        <ul class="breadcrumb">
+                            <li><a href="index.php"><i class="fa fa-home"></i></a><i class="icon-angle-right"></i></li>
+                            <li class="active">Quién Soy</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-                        <h4>Quien Soy</h4>
+        <section id="featured">
+            <!-- start slider -->
+            <div class="container">
+                <div class="row"></div>
 
-                        <p>
-                            <strong>Roxana Bavaro</strong>
-                        </p>
+                <div class="row">
+                    <div class="col-lg-12">
 
                         <p class="lead">
                             <em>Soy periodista, y escritora.</em>
                         </p>
 
                         <p>
-                            Estudié comunicación en la U.C.A, antes de recibirme comencé trabajando en radio (Radio La Red, Buenos Aires) y en gráfica, Corresponsalía en Buenos Aires, del diario El Tribuno de Salta.
+                            Estudié comunicación en la U.C.A., antes de recibirme comencé trabajando en radio (Radio La Red, Buenos Aires) y en gráfica, Corresponsalía en Buenos Aires, del diario El Tribuno de Salta.
                         </p>
 
                         <p>
@@ -65,7 +74,7 @@ require_once 'head.php';
                         </p>
 
                         <p>
-                            Sobre todas las cosas, soy una buscadora constante de horizontes  y de puentes hechos con la palabra….
+                            Sobre todas las cosas, soy una buscadora constante de horizontes y de puentes hechos con la palabra...
                         </p>
 
                         <p style="text-align: right;">
