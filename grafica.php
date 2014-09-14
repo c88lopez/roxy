@@ -32,7 +32,7 @@ require_once 'head.php';
         <div class="row">
             <div class="col-lg-12">
                 <ul class="breadcrumb">
-                    <li><a href="index.php"><i class="fa fa-home"></i></a><i class="icon-angle-right"></i></li>
+                    <li><a href="index.php"><i class="fa fa-pencil"></i></a><i class="icon-angle-right"></i></li>
                     <li class="active">Blog</li>
                 </ul>
             </div>
@@ -55,15 +55,6 @@ require_once 'head.php';
                             <p>
                                  Descripción El Tribuno
                             </p>
-<!--                            <div class="bottom-article">-->
-<!--                                <ul class="meta-post">-->
-<!--                                    <li><i class="icon-calendar"></i><a href="#"> Mar 23, 2013</a></li>-->
-<!--                                    <li><i class="icon-user"></i><a href="#"> Admin</a></li>-->
-<!--                                    <li><i class="icon-folder-open"></i><a href="#"> Blog</a></li>-->
-<!--                                    <li><i class="icon-comments"></i><a href="#">4 Comments</a></li>-->
-<!--                                </ul>-->
-<!--                                <a href="#" class="pull-right">Continue reading <i class="icon-angle-right"></i></a>-->
-<!--                            </div>-->
                     </article>
 
                     <article>
@@ -93,15 +84,6 @@ require_once 'head.php';
                         <p>
                              Descripción El Federal
                         </p>
-<!--                        <div class="bottom-article">-->
-<!--                            <ul class="meta-post">-->
-<!--                                <li><i class="icon-calendar"></i><a href="#"> Mar 23, 2013</a></li>-->
-<!--                                <li><i class="icon-user"></i><a href="#"> Admin</a></li>-->
-<!--                                <li><i class="icon-folder-open"></i><a href="#"> Blog</a></li>-->
-<!--                                <li><i class="icon-comments"></i><a href="#">4 Comments</a></li>-->
-<!--                            </ul>-->
-<!--                            <a href="#" class="pull-right">Continue reading <i class="icon-angle-right"></i></a>-->
-<!--                        </div>-->
                     </article>
 
                     <article>
@@ -125,15 +107,6 @@ require_once 'head.php';
                         <p>
                              Descripción Italpress
                         </p>
-<!--                        <div class="bottom-article">-->
-<!--                            <ul class="meta-post">-->
-<!--                                <li><i class="icon-calendar"></i><a href="#"> Mar 23, 2013</a></li>-->
-<!--                                <li><i class="icon-user"></i><a href="#"> Admin</a></li>-->
-<!--                                <li><i class="icon-folder-open"></i><a href="#"> Blog</a></li>-->
-<!--                                <li><i class="icon-comments"></i><a href="#">4 Comments</a></li>-->
-<!--                            </ul>-->
-<!--                            <a href="#" class="pull-right">Continue reading <i class="icon-angle-right"></i></a>-->
-<!--                        </div>-->
                     </article>
 
                     <article>
@@ -175,15 +148,6 @@ require_once 'head.php';
                         <p>
                              Descripción El Pymes de Clarín
                         </p>
-<!--                        <div class="bottom-article">-->
-<!--                            <ul class="meta-post">-->
-<!--                                <li><i class="icon-calendar"></i><a href="#"> Mar 23, 2013</a></li>-->
-<!--                                <li><i class="icon-user"></i><a href="#"> Admin</a></li>-->
-<!--                                <li><i class="icon-folder-open"></i><a href="#"> Blog</a></li>-->
-<!--                                <li><i class="icon-comments"></i><a href="#">4 Comments</a></li>-->
-<!--                            </ul>-->
-<!--                            <a href="#" class="pull-right">Continue reading <i class="icon-angle-right"></i></a>-->
-<!--                        </div>-->
                     </article>
 
                     <article>
@@ -222,24 +186,7 @@ require_once 'head.php';
                         <p>
                              Descripción Rumbos
                         </p>
-<!--                        <div class="bottom-article">-->
-<!--                            <ul class="meta-post">-->
-<!--                                <li><i class="icon-calendar"></i><a href="#"> Mar 23, 2013</a></li>-->
-<!--                                <li><i class="icon-user"></i><a href="#"> Admin</a></li>-->
-<!--                                <li><i class="icon-folder-open"></i><a href="#"> Blog</a></li>-->
-<!--                                <li><i class="icon-comments"></i><a href="#">4 Comments</a></li>-->
-<!--                            </ul>-->
-<!--                            <a href="#" class="pull-right">Continue reading <i class="icon-angle-right"></i></a>-->
-<!--                        </div>-->
                     </article>
-
-<!--                    <div id="pagination">-->
-<!--                        <span class="all">Page 1 of 3</span>-->
-<!--                        <span class="current">1</span>-->
-<!--                        <a href="#" class="inactive">2</a>-->
-<!--                        <a href="#" class="inactive">3</a>-->
-<!--                    </div>-->
-
                 </div>
 
                 <div class="col-lg-4">
@@ -261,44 +208,6 @@ require_once 'head.php';
                                 <li><i class="icon-angle-right"></i><a href="#">Revista Rumbos</a></li>
                             </ul>
                         </div>
-
-        <!--                <div class="widget">-->
-        <!--                    <h5 class="widgetheading">Latest posts</h5>-->
-        <!--                    <ul class="recent">-->
-        <!--                        <li>-->
-        <!--                        <img src="img/dummies/blog/65x65/thumb1.jpg" class="pull-left" alt="" />-->
-        <!--                        <h6><a href="#">Lorem ipsum dolor sit</a></h6>-->
-        <!--                        <p>-->
-        <!--                             Mazim alienum appellantur eu cu ullum officiis pro pri-->
-        <!--                        </p>-->
-        <!--                        </li>-->
-        <!--                        <li>-->
-        <!--                        <a href="#"><img src="img/dummies/blog/65x65/thumb2.jpg" class="pull-left" alt="" /></a>-->
-        <!--                        <h6><a href="#">Maiorum ponderum eum</a></h6>-->
-        <!--                        <p>-->
-        <!--                             Mazim alienum appellantur eu cu ullum officiis pro pri-->
-        <!--                        </p>-->
-        <!--                        </li>-->
-        <!--                        <li>-->
-        <!--                        <a href="#"><img src="img/dummies/blog/65x65/thumb3.jpg" class="pull-left" alt="" /></a>-->
-        <!--                        <h6><a href="#">Et mei iusto dolorum</a></h6>-->
-        <!--                        <p>-->
-        <!--                             Mazim alienum appellantur eu cu ullum officiis pro pri-->
-        <!--                        </p>-->
-        <!--                        </li>-->
-        <!--                    </ul>-->
-        <!--                </div>-->
-        <!--                <div class="widget">-->
-        <!--                    <h5 class="widgetheading">Popular tags</h5>-->
-        <!--                    <ul class="tags">-->
-        <!--                        <li><a href="#">Web design</a></li>-->
-        <!--                        <li><a href="#">Trends</a></li>-->
-        <!--                        <li><a href="#">Technology</a></li>-->
-        <!--                        <li><a href="#">Internet</a></li>-->
-        <!--                        <li><a href="#">Tutorial</a></li>-->
-        <!--                        <li><a href="#">Development</a></li>-->
-        <!--                    </ul>-->
-        <!--                </div>-->
 
                         <div class="widget">
                             <h5 class="widgetheading">Twitter!</h5>
