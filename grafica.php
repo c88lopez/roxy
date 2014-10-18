@@ -45,6 +45,9 @@ require_once 'head.php';
             <div class="row">
                 <div class="col-lg-8">
 
+                    <?php
+                        if ('tribuno' === $_GET['categoria'] || !isset($_GET['categoria'])) {
+                    ?>
                     <article>
                             <div class="post-image">
                                 <div class="post-heading">
@@ -56,6 +59,10 @@ require_once 'head.php';
                                  Descripción El Tribuno
                             </p>
                     </article>
+
+                    <?php
+                        } else if ('elfederal' === $_GET['categoria']) {
+                    ?>
 
                     <article>
                         <div class="post-slider">
@@ -86,6 +93,10 @@ require_once 'head.php';
                         </p>
                     </article>
 
+                    <?php
+                        } else if ('italpress' === $_GET['categoria']) {
+                    ?>
+
                     <article>
                         <div class="post-slider">
                             <div class="post-heading">
@@ -108,6 +119,10 @@ require_once 'head.php';
                              Descripción Italpress
                         </p>
                     </article>
+
+                    <?php
+                        } else if ('pymesclarin' === $_GET['categoria']) {
+                    ?>
 
                     <article>
                         <div class="post-slider">
@@ -150,6 +165,10 @@ require_once 'head.php';
                         </p>
                     </article>
 
+                    <?php
+                        } else if ('rumbos' === $_GET['categoria']) {
+                    ?>
+
                     <article>
                         <div class="post-slider">
                             <div class="post-heading">
@@ -187,6 +206,10 @@ require_once 'head.php';
                              Descripción Rumbos
                         </p>
                     </article>
+
+                    <?php
+                        }
+                    ?>
                 </div>
 
                 <div class="col-lg-4">
@@ -201,11 +224,11 @@ require_once 'head.php';
                         <div class="widget">
                             <h5 class="widgetheading">Categorías</h5>
                             <ul class="cat">
-                                <li><i class="icon-angle-right"></i><a href="#">El Tribuno</a></li>
-                                <li><i class="icon-angle-right"></i><a href="#">Revista El Federal</a></li>
-                                <li><i class="icon-angle-right"></i><a href="#">Revista Italpress</a></li>
-                                <li><i class="icon-angle-right"></i><a href="#">Revista Pymes de Clarin</a></li>
-                                <li><i class="icon-angle-right"></i><a href="#">Revista Rumbos</a></li>
+                                <li><i class="icon-angle-right"></i><a href="?categoria=tribuno"><span <?php if ('tribuno' === $_GET['categoria'] || !isset($_GET['categoria'])) { ?> style="font-weight: bold;"<?php } ?>>El Tribuno</span></a></li>
+                                <li><i class="icon-angle-right"></i><a href="?categoria=elfederal"><span <?php if ('elfederal' === $_GET['categoria']) { ?> style="font-weight: bold;"<?php } ?>>Revista El Federal</span></a></li>
+                                <li><i class="icon-angle-right"></i><a href="?categoria=italpress"><span <?php if ('italpress' === $_GET['categoria']) { ?> style="font-weight: bold;"<?php } ?>>Revista Italpress</span></a></li>
+                                <li><i class="icon-angle-right"></i><a href="?categoria=pymesclarin"><span <?php if ('pymesclarin' === $_GET['categoria']) { ?> style="font-weight: bold;"<?php } ?>>Revista Pymes de Clarin</span></a></li>
+                                <li><i class="icon-angle-right"></i><a href="?categoria=rumbos"><span <?php if ('rumbos' === $_GET['categoria']) { ?> style="font-weight: bold;"<?php } ?>>Revista Rumbos</span></a></li>
                             </ul>
                         </div>
 
