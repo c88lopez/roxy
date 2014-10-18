@@ -28,7 +28,7 @@
                     <span class="icon-bar"></span>
                 </button>
                 <a class="navbar-brand" href="index.php"><span>Roxana</span> Bavaro</a>
-                <div class="col-lg-6" style="font-size: 16px; padding-left: 40px;">
+                <div class="col-lg-6" style="font-size: 20px; padding-left: 25px;">
                     <ul class="social-network">
                         <li>
                             <a href="https://www.facebook.com/roxana.bavaro" data-placement="top" title="Facebook">
