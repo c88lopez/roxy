@@ -22,7 +22,7 @@ require_once 'head.php';
 
     <?php
 
-    $sSectionclass = 'Portfolio';
+    $sSectionclass = 'Radio';
     require_once 'header.php';
 
     ?>
