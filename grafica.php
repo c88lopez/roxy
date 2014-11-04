@@ -45,13 +45,24 @@ require_once 'head.php';
             <div class="row">
                 <div class="col-lg-8">
 
+                    <div class="col-lg-12">
+                        <ul class="portfolio-categ filter">
+                            <li style="font-size: 15px;" <?php if ('tribuno' === $_GET['categoria'] || !isset($_GET['categoria'])) echo 'class="active"';?>><a href="?categoria=tribuno" title="El Tribuno">El Tribuno</a></li>
+                            <li style="font-size: 15px;" <?php if ('elfederal' === $_GET['categoria']) echo 'class="active"';?>><a href="?categoria=elfederal" title="Revista El Federal">Revista El Federal</a></li>
+                            <li style="font-size: 15px;" <?php if ('italpress' === $_GET['categoria']) echo 'class="active"';?>><a href="?categoria=italpress" title="Revista El Federal">Revista Italpress</a></li>
+                            <li style="font-size: 15px;" <?php if ('pymesclarin' === $_GET['categoria']) echo 'class="active"';?>><a href="?categoria=pymesclarin" title="Revista El Federal">Revista Pymes de Clarin</a></li>
+                            <li style="font-size: 15px;" <?php if ('rumbos' === $_GET['categoria']) echo 'class="active"';?>><a href="?categoria=rumbos" title="Revista El Federal">Revista Rumbos</a></li>
+                        </ul>
+                        <div class="clearfix"></div>
+                    </div>
+
                     <?php
                         if ('tribuno' === $_GET['categoria'] || !isset($_GET['categoria'])) {
                     ?>
                     <article>
                             <div class="post-image">
                                 <div class="post-heading">
-                                    <h3><a href="#">El Tribuno</a></h3>
+                                    <h3><a href="#">&nbsp;</a></h3>
                                 </div>
                                 <img src="contenido/grafica/el_tribuno/el_tribuno1.jpg" alt="" />
                             </div>
@@ -67,7 +78,7 @@ require_once 'head.php';
                     <article>
                         <div class="post-slider">
                             <div class="post-heading">
-                                <h3><a href="#">Revista El Federal</a></h3>
+                                <h3><a href="#">&nbsp;</a></h3>
                             </div>
                             <!-- start flexslider -->
                             <div id="post-slider" class="flexslider">
@@ -100,7 +111,7 @@ require_once 'head.php';
                     <article>
                         <div class="post-slider">
                             <div class="post-heading">
-                                <h3><a href="#">Revista Italpress</a></h3>
+                                <h3><a href="#">&nbsp;</a></h3>
                             </div>
                             <!-- start flexslider -->
                             <div id="post-slider" class="flexslider">
@@ -127,7 +138,7 @@ require_once 'head.php';
                     <article>
                         <div class="post-slider">
                             <div class="post-heading">
-                                <h3><a href="#">Revista Pymes de Clarín</a></h3>
+                                <h3><a href="#">&nbsp;</a></h3>
                             </div>
                             <!-- start flexslider -->
                             <div id="post-slider" class="flexslider">
@@ -172,7 +183,7 @@ require_once 'head.php';
                     <article>
                         <div class="post-slider">
                             <div class="post-heading">
-                                <h3><a href="#">Revista Rumbos</a></h3>
+                                <h3><a href="#">&nbsp;</a></h3>
                             </div>
                             <!-- start flexslider -->
                             <div id="post-slider" class="flexslider">
@@ -216,25 +227,8 @@ require_once 'head.php';
                     <aside class="right-sidebar">
 
                         <div class="widget">
-                            <form class="form-search">
-                                <input class="form-control" type="text" placeholder="Search..">
-                            </form>
-                        </div>
-
-                        <div class="widget">
-                            <h5 class="widgetheading">Categorías</h5>
-                            <ul class="cat">
-                                <li><i class="icon-angle-right"></i><a href="?categoria=tribuno"><span <?php if ('tribuno' === $_GET['categoria'] || !isset($_GET['categoria'])) { ?> style="font-weight: bold;"<?php } ?>>El Tribuno</span></a></li>
-                                <li><i class="icon-angle-right"></i><a href="?categoria=elfederal"><span <?php if ('elfederal' === $_GET['categoria']) { ?> style="font-weight: bold;"<?php } ?>>Revista El Federal</span></a></li>
-                                <li><i class="icon-angle-right"></i><a href="?categoria=italpress"><span <?php if ('italpress' === $_GET['categoria']) { ?> style="font-weight: bold;"<?php } ?>>Revista Italpress</span></a></li>
-                                <li><i class="icon-angle-right"></i><a href="?categoria=pymesclarin"><span <?php if ('pymesclarin' === $_GET['categoria']) { ?> style="font-weight: bold;"<?php } ?>>Revista Pymes de Clarin</span></a></li>
-                                <li><i class="icon-angle-right"></i><a href="?categoria=rumbos"><span <?php if ('rumbos' === $_GET['categoria']) { ?> style="font-weight: bold;"<?php } ?>>Revista Rumbos</span></a></li>
-                            </ul>
-                        </div>
-
-                        <div class="widget">
                             <h5 class="widgetheading">Twitter!</h5>
-                            <a class="twitter-timeline" href="https://twitter.com/c88lopez" data-widget-id="491375757331935232">Tweets by @c88lopez</a>
+                            <a class="twitter-timeline"  href="https://twitter.com/roxybavaro" data-widget-id="526781920114257920">Tweets por @roxybavaro</a>
                             <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
                         </div>
 
