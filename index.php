@@ -100,6 +100,53 @@ require_once 'head.php';
             </div>
         </section>
 
+        <section id="featured">
+            <div class="container">
+                <div class="row"></div>
+
+                <div class="row">
+                    <div class="col-lg-12" style="text-align: center;">
+
+                        <h2><a>Entrevista a Roxana en La Palabra</a></h2>
+
+                        <div class="row">
+                            <section id="projects">
+                                <ul id="thumbs" class="portfolio">
+                                    <li class="item-thumbs col-lg-4 design">
+                                        <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Página 1" href="contenido/index/LA_PALABRA_Pagina_1.jpg">
+                                            <span class="overlay-img"></span>
+                                            <span class="overlay-img-thumb font-icon-plus"></span>
+                                        </a>
+
+                                        <img src="contenido/index/LA_PALABRA_Pagina_1.jpg" alt="">
+                                    </li>
+
+                                    <li class="item-thumbs col-lg-4 design">
+                                        <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Página 2" href="contenido/index/LA_PALABRA_Pagina_2.jpg">
+                                            <span class="overlay-img"></span>
+                                            <span class="overlay-img-thumb font-icon-plus"></span>
+                                        </a>
+
+                                        <img src="contenido/index/LA_PALABRA_Pagina_2.jpg" alt="">
+                                    </li>
+
+                                    <li class="item-thumbs col-lg-4 photography">
+                                        <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Página 3" href="contenido/index/LA_PALABRA_Pagina_3.jpg">
+                                            <span class="overlay-img"></span>
+                                            <span class="overlay-img-thumb font-icon-plus"></span>
+                                        </a>
+
+                                        <img src="contenido/index/LA_PALABRA_Pagina_3.jpg" alt="">
+                                    </li>
+                                </ul>
+                            </section>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
         <?php require_once 'footer.php'; ?>
 
     </div>
