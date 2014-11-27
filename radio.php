@@ -64,7 +64,7 @@ require_once 'head.php';
                     if ('utn' === $sTab) {
                 ?>
                 <div class="col-lg-12">
-                    <div class="col-lg-4">
+                    <div class="col-lg-12">
                         <h4>CULTURA_EN_TRANSITO_1</h4>
                         <audio controls>
                             <source src="contenido/radio/FM_TECTO_RADIO_UTN/CULTURA_EN_TRANSITO_1.wav" type="audio/mpeg">
@@ -74,7 +74,7 @@ require_once 'head.php';
                         <div class="clearfix"></div>
                     </div>
 
-                    <div class="col-lg-4">
+                    <div class="col-lg-12">
                         <h4>MICROCULTURA_I</h4>
                         <audio controls>
                             <source src="contenido/radio/FM_TECTO_RADIO_UTN/MICROCULTURA_I.wav" type="audio/mpeg">
@@ -84,7 +84,7 @@ require_once 'head.php';
                         <div class="clearfix"></div>
                     </div>
 
-                    <div class="col-lg-4">
+                    <div class="col-lg-12">
                         <h4>MICROCULTURA_II</h4>
                         <audio controls>
                             <source src="contenido/radio/FM_TECTO_RADIO_UTN/MICROCULTURA_II.wav" type="audio/mpeg">
@@ -114,7 +114,7 @@ require_once 'head.php';
 
                     <div class="col-lg-12">
                         <h3>Programa 1</h3>
-                        <div class="col-lg-4">
+                        <div class="col-lg-12">
                             <h4>Audio_1</h4>
                             <audio controls>
                                 <source src="contenido/radio/RADIO_NACIONAL_FOLKLORICA/prograa%201-%2019%20marz%202014/roxy%20RN%20programa%202%20(1).m4a" type="audio/mpeg">
@@ -124,7 +124,7 @@ require_once 'head.php';
                             <div class="clearfix"></div>
                         </div>
 
-                        <div class="col-lg-4">
+                        <div class="col-lg-12">
                             <h4>Audio_2</h4>
                             <audio controls>
                                 <source src="contenido/radio/FM_TECTO_RADIO_UTN/MICROCULTURA_I.wav" type="audio/mpeg">
@@ -134,7 +134,7 @@ require_once 'head.php';
                             <div class="clearfix"></div>
                         </div>
 
-                        <div class="col-lg-4">
+                        <div class="col-lg-12">
                             <h4>Audio_3</h4>
                             <audio controls>
                                 <source src="contenido/radio/FM_TECTO_RADIO_UTN/MICROCULTURA_II.wav" type="audio/mpeg">

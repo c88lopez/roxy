@@ -43,32 +43,79 @@ require_once 'head.php';
     <section id="content">
         <div class="container">
             <div class="row">
-                <div class="col-lg-8">
+                <div class="col-lg-9">
 
+                <?php if (!isset($_GET['categoria'])) { ?>
                     <div class="col-lg-12">
-                        <ul class="portfolio-categ filter">
-                            <li style="font-size: 15px;" <?php if ('tribuno' === $_GET['categoria'] || !isset($_GET['categoria'])) echo 'class="active"';?>><a href="?categoria=tribuno" title="El Tribuno">El Tribuno</a></li>
-                            <li style="font-size: 15px;" <?php if ('elfederal' === $_GET['categoria']) echo 'class="active"';?>><a href="?categoria=elfederal" title="Revista El Federal">Revista El Federal</a></li>
-                            <li style="font-size: 15px;" <?php if ('italpress' === $_GET['categoria']) echo 'class="active"';?>><a href="?categoria=italpress" title="Revista El Federal">Revista Italpress</a></li>
-                            <li style="font-size: 15px;" <?php if ('pymesclarin' === $_GET['categoria']) echo 'class="active"';?>><a href="?categoria=pymesclarin" title="Revista El Federal">Revista Pymes de Clarin</a></li>
-                            <li style="font-size: 15px;" <?php if ('rumbos' === $_GET['categoria']) echo 'class="active"';?>><a href="?categoria=rumbos" title="Revista El Federal">Revista Rumbos</a></li>
-                        </ul>
+                        <div class="col-lg-4" style="height: 250px; text-align: center;"><a href="?categoria=tribuno">
+                            <div class="col-lg-12" style="font-size: 18px;">El Tribuno</div>
+                            <div class="col-lg-12"
+                                 style="background-image: url(contenido/grafica/el_tribuno/el_tribuno1.jpg);
+                                        background-size: contain;
+                                        background-repeat: no-repeat;
+                                        height: 200px;
+                                        margin: 7px 7px;"></div></a>
+                        </div>
+                        <div class="col-lg-4" style="height: 250px; text-align: center;"><a href="?categoria=elfederal">
+                            <div class="col-lg-12" style="font-size: 18px;">Revista El Federal</div>
+                            <div class="col-lg-12"
+                                 style="background-image: url(contenido/grafica/revista_el_federal/el_federal_calidad_1.jpg);
+                                        background-size: contain;
+                                        background-repeat: no-repeat;
+                                        height: 200px;
+                                        margin: 0px 55px;"></div></a>
+                        </div>
+                        <div class="col-lg-4" style="height: 250px; text-align: center;"><a href="?categoria=italpress">
+                            <div class="col-lg-12" style="font-size: 18px;">Revista Italpress</div>
+                            <div class="col-lg-12"
+                                 style="background-image: url(contenido/grafica/revista_italpress/Italpress_moda_1.jpg);
+                                        background-size: contain;
+                                        background-repeat: no-repeat;
+                                        height: 200px;
+                                        margin: 0px 55px;"></div></a>
+                        </div>
+
                         <div class="clearfix"></div>
                     </div>
 
+                    <div class="col-lg-12">
+                        <div class="col-lg-4" style="height: 250px; text-align: center;"><a href="?categoria=pymesclarin">
+                            <div class="col-lg-12" style="font-size: 18px;">Revista Pymes de Clarin</div>
+                            <div class="col-lg-12"
+                                 style="background-image: url(contenido/grafica/revista_pymes_de_clarin/pymes_credito_1.jpg);
+                                        background-size: contain;
+                                        background-repeat: no-repeat;
+                                        height: 200px;
+                                        margin: 0px 55px;"></div></a>
+                        </div>
+                        <div class="col-lg-4" style="height: 250px; text-align: center;"><a href="?categoria=rumbos">
+                            <div class="col-lg-12" style="font-size: 18px;">Revista Rumbos</div>
+                            <div class="col-lg-12"
+                                 style="background-image: url(contenido/grafica/revista_rumbos/rumbos_alergia_1.jpg);
+                                        background-size: contain;
+                                        background-repeat: no-repeat;
+                                        height: 200px;
+                                        margin: 0px 55px;"></div></a>
+                        </div>
+                        <div class="col-lg-4">&nbsp;</div>
+
+                        <div class="clearfix"></div>
+                    </div>
+                    <?php } ?>
                     <?php
-                        if ('tribuno' === $_GET['categoria'] || !isset($_GET['categoria'])) {
+                        if ('tribuno' === $_GET['categoria']) {
                     ?>
+
                     <article>
-                            <div class="post-image">
-                                <div class="post-heading">
-                                    <h3><a href="#">&nbsp;</a></h3>
-                                </div>
-                                <img src="contenido/grafica/el_tribuno/el_tribuno1.jpg" alt="" />
+                        <p>
+                            Descripción El Tribuno
+                        </p>
+                        <div class="post-image">
+                            <div class="post-heading">
+                                <h3><a href="#">&nbsp;</a></h3>
                             </div>
-                            <p>
-                                 Descripción El Tribuno
-                            </p>
+                            <img src="contenido/grafica/el_tribuno/el_tribuno1.jpg" alt="" />
+                        </div>
                     </article>
 
                     <?php
@@ -223,7 +270,7 @@ require_once 'head.php';
                     ?>
                 </div>
 
-                <div class="col-lg-4">
+                <div class="col-lg-3">
                     <aside class="right-sidebar">
 
                         <div class="widget">
