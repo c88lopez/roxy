@@ -114,8 +114,22 @@ require_once 'head.php';
                             <div class="post-heading">
                                 <h3><a href="#">&nbsp;</a></h3>
                             </div>
-                            <img src="contenido/grafica/el_tribuno/el_tribuno1.jpg" alt="" />
                         </div>
+
+                        <div class="row">
+                            <section id="projects">
+                                <ul id="thumbs" class="portfolio">
+                                    <li class="item-thumbs col-lg-4 design">
+                                        <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Página 1"
+                                           href="contenido/grafica/el_tribuno/el_tribuno1.jpg">
+                                        </a>
+
+                                        <img src="contenido/grafica/el_tribuno/el_tribuno1.jpg" alt="">
+                                    </li>
+                                </ul>
+                            </section>
+                        </div>
+
                     </article>
 
                     <?php
@@ -125,26 +139,46 @@ require_once 'head.php';
                     <article>
                         <div class="post-slider">
                             <div class="post-heading">
-                                <h3><a href="#">&nbsp;</a></h3>
+                                <h3><a href="#">El Federal</a></h3>
                             </div>
-                            <!-- start flexslider -->
-                            <div id="post-slider" class="flexslider">
-                                <ul class="slides">
-                                    <li>
-                                        <img src="contenido/grafica/revista_el_federal/el_federal_vino_1.jpg" alt="" />
-                                    </li>
-                                    <li>
-                                        <img src="contenido/grafica/revista_el_federal/el_federal_vino_2.jpg" alt="" />
-                                    </li>
-                                    <li>
-                                        <img src="contenido/grafica/revista_el_federal/el_federal_calidad_1.jpg" alt="" />
-                                    </li>
-                                    <li>
-                                        <img src="contenido/grafica/revista_el_federal/El_Federal_calidad_2.jpg" alt="" />
-                                    </li>
-                                </ul>
+
+                            <div class="row">
+                                <section id="projects">
+                                    <ul id="thumbs" class="portfolio">
+                                        <li class="item-thumbs col-lg-4 design">
+                                            <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Página 1"
+                                               href="contenido/grafica/revista_el_federal/el_federal_vino_1.jpg">
+                                            </a>
+
+                                            <img src="contenido/grafica/revista_el_federal/el_federal_vino_1.jpg" alt="">
+                                        </li>
+
+                                        <li class="item-thumbs col-lg-4 design">
+                                            <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Página 1"
+                                               href="contenido/grafica/revista_el_federal/el_federal_vino_2.jpg">
+                                            </a>
+
+                                            <img src="contenido/grafica/revista_el_federal/el_federal_vino_2.jpg" alt="">
+                                        </li>
+
+                                        <li class="item-thumbs col-lg-4 design">
+                                            <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Página 1"
+                                               href="contenido/grafica/revista_el_federal/el_federal_calidad_1.jpg">
+                                            </a>
+
+                                            <img src="contenido/grafica/revista_el_federal/el_federal_calidad_1.jpg" alt="">
+                                        </li>
+
+                                        <li class="item-thumbs col-lg-4 design">
+                                            <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Página 1"
+                                               href="contenido/grafica/revista_el_federal/El_Federal_calidad_2.jpg">
+                                            </a>
+
+                                            <img src="contenido/grafica/revista_el_federal/El_Federal_calidad_2.jpg" alt="">
+                                        </li>
+                                    </ul>
+                                </section>
                             </div>
-                            <!-- end flexslider -->
                         </div>
                         <p>
                              Descripción El Federal
@@ -160,18 +194,28 @@ require_once 'head.php';
                             <div class="post-heading">
                                 <h3><a href="#">&nbsp;</a></h3>
                             </div>
-                            <!-- start flexslider -->
-                            <div id="post-slider" class="flexslider">
-                                <ul class="slides">
-                                    <li>
-                                        <img src="contenido/grafica/revista_italpress/Italpress_moda_1.jpg" alt="" />
-                                    </li>
-                                    <li>
-                                        <img src="contenido/grafica/revista_italpress/Italpress_moda_2.jpg" alt="" />
-                                    </li>
-                                </ul>
+
+                            <div class="row">
+                                <section id="projects">
+                                    <ul id="thumbs" class="portfolio">
+                                        <li class="item-thumbs col-lg-4 design">
+                                            <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Página 1"
+                                               href="contenido/grafica/revista_italpress/Italpress_moda_1.jpg">
+                                            </a>
+
+                                            <img src="contenido/grafica/revista_italpress/Italpress_moda_1.jpg" alt="">
+                                        </li>
+
+                                        <li class="item-thumbs col-lg-4 design">
+                                            <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Página 1"
+                                               href="contenido/grafica/revista_italpress/Italpress_moda_2.jpg">
+                                            </a>
+
+                                            <img src="contenido/grafica/revista_italpress/Italpress_moda_2.jpg" alt="">
+                                        </li>
+                                    </ul>
+                                </section>
                             </div>
-                            <!-- end flexslider -->
                         </div>
                         <p>
                              Descripción Italpress
@@ -187,36 +231,86 @@ require_once 'head.php';
                             <div class="post-heading">
                                 <h3><a href="#">&nbsp;</a></h3>
                             </div>
-                            <!-- start flexslider -->
-                            <div id="post-slider" class="flexslider">
-                                <ul class="slides">
-                                    <li>
-                                        <img src="contenido/grafica/revista_pymes_de_clarin/pymes_credito_1.jpg" alt="" />
-                                    </li>
-                                    <li>
-                                        <img src="contenido/grafica/revista_pymes_de_clarin/pymes_credito_2.jpg" alt="" />
-                                    </li>
-                                    <li>
-                                        <img src="contenido/grafica/revista_pymes_de_clarin/pymes_empretec_1.JPG" alt="" />
-                                    </li>
-                                    <li>
-                                        <img src="contenido/grafica/revista_pymes_de_clarin/pymes_empretec_2.JPG" alt="" />
-                                    </li>
-                                    <li>
-                                        <img src="contenido/grafica/revista_pymes_de_clarin/pymes_empretec_3.JPG" alt="" />
-                                    </li>
-                                    <li>
-                                        <img src="contenido/grafica/revista_pymes_de_clarin/pymes_sub30_1.JPG" alt="" />
-                                    </li>
-                                    <li>
-                                        <img src="contenido/grafica/revista_pymes_de_clarin/pymes_sub30_2.JPG" alt="" />
-                                    </li>
-                                    <li>
-                                        <img src="contenido/grafica/revista_pymes_de_clarin/pymes_weemba_1.jpg" alt="" />
-                                    </li>
-                                </ul>
+
+                            <div class="row">
+                                <section id="projects">
+                                    <ul id="thumbs" class="portfolio">
+                                        <li class="item-thumbs col-lg-4 design">
+                                            <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Página 1"
+                                               href="contenido/grafica/revista_pymes_de_clarin/pymes_credito_1.jpg">
+                                            </a>
+
+                                            <img src="contenido/grafica/revista_pymes_de_clarin/pymes_credito_1.jpg" alt="">
+                                        </li>
+
+                                        <li class="item-thumbs col-lg-4 design">
+                                            <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Página 1"
+                                               href="contenido/grafica/revista_pymes_de_clarin/pymes_credito_2.jpg">
+                                            </a>
+
+                                            <img src="contenido/grafica/revista_pymes_de_clarin/pymes_credito_2.jpg" alt="">
+                                        </li>
+                                        <li class="item-thumbs col-lg-4 design">
+                                            <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Página 1"
+                                               href="contenido/grafica/revista_pymes_de_clarin/pymes_empretec_1.JPG">
+                                            </a>
+
+                                            <img src="contenido/grafica/revista_pymes_de_clarin/pymes_empretec_1.JPG" alt="">
+                                        </li>
+                                    </ul>
+                                </section>
                             </div>
-                            <!-- end flexslider -->
+
+                            <div class="row">
+                                <section id="projects">
+                                    <ul id="thumbs" class="portfolio">
+                                        <li class="item-thumbs col-lg-4 design">
+                                            <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Página 1"
+                                               href="contenido/grafica/revista_pymes_de_clarin/pymes_empretec_2.JPG">
+                                            </a>
+
+                                            <img src="contenido/grafica/revista_pymes_de_clarin/pymes_empretec_2.JPG" alt="">
+                                        </li>
+                                        <li class="item-thumbs col-lg-4 design">
+                                            <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Página 1"
+                                               href="contenido/grafica/revista_pymes_de_clarin/pymes_empretec_3.JPG">
+                                            </a>
+
+                                            <img src="contenido/grafica/revista_pymes_de_clarin/pymes_empretec_3.JPG" alt="">
+                                        </li>
+
+                                        <li class="item-thumbs col-lg-4 design">
+                                            <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Página 1"
+                                               href="contenido/grafica/revista_pymes_de_clarin/pymes_sub30_1.JPG">
+                                            </a>
+
+                                            <img src="contenido/grafica/revista_pymes_de_clarin/pymes_sub30_1.JPG" alt="">
+                                        </li>
+                                    </ul>
+                                </section>
+                            </div>
+
+                            <div class="row">
+                                <section id="projects">
+                                    <ul id="thumbs" class="portfolio">
+                                        <li class="item-thumbs col-lg-4 design">
+                                            <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Página 1"
+                                               href="contenido/grafica/revista_pymes_de_clarin/pymes_sub30_2.JPG">
+                                            </a>
+
+                                            <img src="contenido/grafica/revista_pymes_de_clarin/pymes_sub30_2.JPG" alt="">
+                                        </li>
+
+                                        <li class="item-thumbs col-lg-4 design">
+                                            <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Página 1"
+                                               href="contenido/grafica/revista_pymes_de_clarin/pymes_weemba_1.jpg">
+                                            </a>
+
+                                            <img src="contenido/grafica/revista_pymes_de_clarin/pymes_weemba_1.jpg" alt="">
+                                        </li>
+                                    </ul>
+                                </section>
+                            </div>
                         </div>
                         <p>
                              Descripción El Pymes de Clarín
@@ -232,34 +326,77 @@ require_once 'head.php';
                             <div class="post-heading">
                                 <h3><a href="#">&nbsp;</a></h3>
                             </div>
-                            <!-- start flexslider -->
-                            <div id="post-slider" class="flexslider">
-                                <ul class="slides">
-                                    <li>
-                                        <img src="contenido/grafica/revista_rumbos/rumbos_alergia_1.jpg" alt="" />
-                                    </li>
-                                    <li>
-                                        <img src="contenido/grafica/revista_rumbos/rumbos_alergia_2.jpg" alt="" />
-                                    </li>
-                                    <li>
-                                        <img src="contenido/grafica/revista_rumbos/rumbos_alergia_3.jpg" alt="" />
-                                    </li>
-                                    <li>
-                                        <img src="contenido/grafica/revista_rumbos/rumbos_piel_1.jpg" alt="" />
-                                    </li>
-                                    <li>
-                                        <img src="contenido/grafica/revista_rumbos/rumbos_piel_2.jpg" alt="" />
-                                    </li>
-                                    <li>
-                                        <img src="contenido/grafica/revista_rumbos/rumbos_piel_3.jpg" alt="" />
-                                    </li>
-                                    <li>
-                                        <img src="contenido/grafica/revista_rumbos/rumbos_piel_tapa.jpg" alt="" />
-                                    </li>
-                                </ul>
+
+                            <div class="row">
+                                <section id="projects">
+                                    <ul id="thumbs" class="portfolio">
+                                        <li class="item-thumbs col-lg-4 design">
+                                            <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Página 1"
+                                               href="contenido/grafica/revista_rumbos/rumbos_alergia_1.jpg">
+                                            </a>
+
+                                            <img src="contenido/grafica/revista_rumbos/rumbos_alergia_1.jpg" alt="">
+                                        </li>
+                                        <li class="item-thumbs col-lg-4 design">
+                                            <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Página 1"
+                                               href="contenido/grafica/revista_rumbos/rumbos_alergia_2.jpg">
+                                            </a>
+
+                                            <img src="contenido/grafica/revista_rumbos/rumbos_alergia_2.jpg" alt="">
+                                        </li>
+                                        <li class="item-thumbs col-lg-4 design">
+                                            <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Página 1"
+                                               href="contenido/grafica/revista_rumbos/rumbos_alergia_3.jpg">
+                                            </a>
+
+                                            <img src="contenido/grafica/revista_rumbos/rumbos_alergia_3.jpg" alt="">
+                                        </li>
+                                    </ul>
+                                </section>
                             </div>
-                            <!-- end flexslider -->
-                        </div>
+
+                            <div class="row">
+                                <section id="projects">
+                                    <ul id="thumbs" class="portfolio">
+                                        <li class="item-thumbs col-lg-4 design">
+                                            <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Página 1"
+                                               href="contenido/grafica/revista_rumbos/rumbos_piel_1.jpg">
+                                            </a>
+
+                                            <img src="contenido/grafica/revista_rumbos/rumbos_piel_1.jpg" alt="">
+                                        </li>
+                                        <li class="item-thumbs col-lg-4 design">
+                                            <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Página 1"
+                                               href="contenido/grafica/revista_rumbos/rumbos_piel_2.jpg">
+                                            </a>
+
+                                            <img src="contenido/grafica/revista_rumbos/rumbos_piel_2.jpg" alt="">
+                                        </li>
+                                        <li class="item-thumbs col-lg-4 design">
+                                            <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Página 1"
+                                               href="contenido/grafica/revista_rumbos/rumbos_piel_3.jpg">
+                                            </a>
+
+                                            <img src="contenido/grafica/revista_rumbos/rumbos_piel_3.jpg" alt="">
+                                        </li>
+                                    </ul>
+                                </section>
+                            </div>
+
+                            <div class="row">
+                                <section id="projects">
+                                    <ul id="thumbs" class="portfolio">
+                                        <li class="item-thumbs col-lg-4 design">
+                                            <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Página 1"
+                                               href="contenido/grafica/revista_rumbos/rumbos_piel_tapa.jpg">
+                                            </a>
+
+                                            <img src="contenido/grafica/revista_rumbos/rumbos_piel_tapa.jpg" alt="">
+                                        </li>
+                                    </ul>
+                                </section>
+                            </div>
+                            </div>
                         <p>
                              Descripción Rumbos
                         </p>

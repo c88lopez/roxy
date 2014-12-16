@@ -45,14 +45,13 @@ require_once 'head.php';
             <div class="row">
 
                 <?php
-                    $sTab = 'utn';
                     if (isset($_GET['tab'])) {
                         $sTab = $_GET['tab'];
                     }
                 ?>
 
                 <div class="col-lg-12">
-                    <ul class="portfolio-categ filter">
+                    <ul style="font-weight: bold">
                         <li <?php if ('utn' === $sTab) echo 'class="active"';?>><a href="?tab=utn" title="FM Tecno Radio UTN">Micro de cultura en POSTIGO, LA OTRA PUERTA FM LA TECNO, FM 88.3</a></li>
                         <li <?php if ('gya' === $sTab) echo 'class="active"';?>><a href="?tab=gya" title="Graves y Agudos">Graves y Agudos</a></li>
                         <li <?php if ('folklorica' === $sTab) echo 'class="active"';?>><a href="?tab=folklorica" title="Radio Nacional Folklorica">Radio Nacional Folklórica FM 98.7 programa de Santiago Giordano</a></li>
